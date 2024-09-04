@@ -1,32 +1,57 @@
-# Relatório de Faturamento Mensal da Distribuidora
+# README Técnico
 
-Este projeto consiste em duas aplicações web simples que realizam cálculos e exibem informações relacionadas ao faturamento de uma distribuidora. Os trabalhos foram desenvolvidos utilizando **HTML**, **CSS**, e **JavaScript**.
+## 1. Cálculo da Soma com Estrutura de Repetição
 
-## Índice
+**Descrição:**
+O código calcula a soma dos números inteiros de 1 até um valor específico (13 neste caso) usando um loop `while`.
 
-- [Visão Geral](#visão-geral)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Requisitos](#requisitos)
-- [Como Executar](#como-executar)
-- [Detalhes Técnicos](#detalhes-técnicos)
-- [Contato](#contato)
+**Explicação:**
+- `INDICE` é definido como 13.
+- `SOMA` e `K` são inicializados como 0.
+- O loop `while` incrementa `K` de 1 até 13 e adiciona o valor de `K` à `SOMA`.
+- No final, `SOMA` será a soma dos números de 1 a 13.
 
-## Visão Geral
+**Resultado:**
+O valor da variável `SOMA` ao final do processamento será 91.
 
-### Trabalho 1: Análise do Faturamento Diário
+## 2. Verificação de Pertinência na Sequência de Fibonacci
 
-Este trabalho recebe os dados de faturamento diário de uma distribuidora, calcula e exibe:
-- O menor valor de faturamento ocorrido em um dia do mês.
-- O maior valor de faturamento ocorrido em um dia do mês.
-- O número de dias no mês em que o valor de faturamento diário foi superior à média mensal (excluindo os dias sem faturamento).
+**Descrição:**
+Este programa verifica se um número informado pertence à sequência de Fibonacci.
 
-### Trabalho 2: Percentual de Representação por Estado
+**Explicação:**
+- A função gera números da sequência de Fibonacci até que o número informado seja alcançado ou excedido.
+- O programa lê um número do usuário e verifica se ele pertence à sequência.
 
-Este trabalho calcula e exibe o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora. Os estados considerados são:
-- SP
-- RJ
-- MG
-- ES
-- Outros
+## 3. Análise de Faturamento Diário
 
+**Descrição:**
+Este programa analisa um vetor de faturamento diário e calcula o menor valor, o maior valor e o número de dias com faturamento acima da média mensal.
 
+**Explicação:**
+- O código lê um JSON contendo o faturamento diário.
+- Remove os dias sem faturamento (valores zero).
+- Calcula o menor e o maior faturamento, além da média mensal.
+- Conta os dias com faturamento acima da média.
+
+## 4. Cálculo do Percentual de Representação por Estado
+
+**Descrição:**
+Este programa calcula o percentual de faturamento de cada estado em relação ao faturamento total.
+
+**Explicação:**
+- O código cria um dicionário com os valores de faturamento por estado.
+- Calcula o total e o percentual de cada estado em relação ao total.
+- Imprime o percentual de faturamento de cada estado.
+
+## 5. Inversão de String
+
+**Descrição:**
+Este programa inverte os caracteres de uma string fornecida.
+
+**Explicação:**
+- A função inverte a string adicionando cada caractere no início de uma nova string.
+- O programa lê uma string do usuário e imprime a string invertida.
+
+**Notas Finais:**
+Os exemplos descritos podem ser adaptados para outras linguagens conforme necessário. Certifique-se de adaptar a entrada de dados e a manipulação de arquivos conforme as especificações de sua aplicação.
